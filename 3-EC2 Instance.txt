@@ -1,0 +1,31 @@
+1) What is instance?
+    An instance is a virtual server for running applications on amazon EC2. It can also be understood like a tiny part of a larger computer, a tiny part which has its own hard drive, network connection, OS etc. But it is actually all virtual.
+    When you are launching a virtual machine, it is called as instance in terms of AWS 
+    
+2) What is EC2?
+    Amazon Elastic Compute EC2 is a web service from amazon that provides resizable compute services in the cloud
+    It is highly flexible and scalable  
+
+3) Types of instances: -
+1.General purpose response
+    It is basically suited for applications that require a balance a performance and cost.
+    That means places where you require quick response but it is still cost effective
+
+2.Compute instances
+    for that applications that require a lot of processing 
+    Computation they have better computation power. That means if there is a lot of data that need quicker computation power you can use these kinds of instances.
+    Ex Analyzing streaming data (it the data that continuously flows in and flows out) 
+
+3.Memory instance
+    For applications that are heavy in nature therefore require a lot of RAMS
+
+4.Storage instances
+    For application that are huge size or have a data set that occupies lot of space
+
+5.GPU instance
+    For applications that require some heavy graphics rendering
+
+
+Elastic Load Balancing
+
+Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances. 

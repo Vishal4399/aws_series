@@ -1,0 +1,44 @@
+1) What is Cloud Computing : 
+Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
+
+2) Service Models : Cloud Computing 
+
+SaaS : Software as a Service 
+Paas : Platforn as a Service 
+Iaas : Infrastructure as a Service 
+
+
+1-	SaaS (Software as a Service)
+It is basically you are just consuming services which is already being maintained and handled by someone else.
+Ex. We have Gmail all you need do is you send mail to people and received mails and whatever functionality you don’t need to know you just use the services  
+-	You do not to maintain it
+-	You do not have to worry about the scaling up and down scaling and security issues 
+-	All this take care and maintain by google
+
+Services under Saas in AWS :
+- Amazon Chime: A communication service for online meetings, video conferencing, and chat.
+- Amazon WorkMail: A managed email and calendaring service.
+- AWS Marketplace SaaS Products: Third-party software offerings like security, analytics, DevOps, etc.through AWS Marketplace.
+Amazon QuickSight: A business intelligence service that allows users to create visualizations and derive insights from data
+
+2 : PaaS (Platform as a Services)
+Here you are provided with a platform where you can actually go ahead and build your own application
+Ex.
+We have our google app engine. you can create your own application and you can put it on google app engine so that other can used as well 
+So that you are using the app platform to create your own application
+
+Services Under Paas in AWS :
+- AWS Lambda: A serverless compute service that allows you to run code in response to events without provisioning or managing servers.
+- Amazon RDS (Relational Database Service): A managed service for setting up, operating, and scaling relational databases (e.g., MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB).
+- Amazon EMR (Elastic MapReduce): A managed service for processing big data using open-source frameworks like Apache Hadoop and Spark.
+- AWS Step Functions: A serverless orchestration service that makes it easy to coordinate distributed applications and microservices using visual workflows.
+
+3.IaaS (Infrastructure as a Services)
+Whole infrastructure is provided to you so that you can go ahead and create your own application
+That is underlying structure is given to you based on that so you can go ahead and choose your operating system, the kind of technology on to use in that platform, the application you want to build all those things
+
+Services Under Iaas in AWS :
+- Amazon EC2 (Elastic Compute Cloud): Provides scalable virtual servers (instances) in the cloud. Users can choose their operating system, CPU, memory, and storage capacity, and have full control over the instances
+- Amazon S3 (Simple Storage Service): A scalable object storage service where users can store and retrieve any amount of data. It is often used for backup, archiving, and big data analytics.
+- Amazon VPC (Virtual Private Cloud): Allows users to provision logically isolated sections of the AWS Cloud where they can launch AWS resources in a virtual network that they define.
+

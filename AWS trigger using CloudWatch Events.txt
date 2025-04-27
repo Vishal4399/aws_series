@@ -1,0 +1,47 @@
+# AWS trigger using CloudWatch Events
+
+
+To define time intervals for an AWS trigger using CloudWatch Events (now part of Amazon EventBridge), you can use either rate expressions or cron expressions
+Here’s a quick guide on how to set them up:
+
+1 - Rate Expressions
+Rate expressions are used to run a rule at regular intervals. The syntax is:
+rate(value unit)
+
+value: A positive number.
+unit: The unit of time (minute, minutes, hour, hours, day, days).
+
+Examples:
+
+rate(5 minutes) - Runs every 5 minutes.
+rate(1 hour) - Runs every hour.
+
+
+2 - Cron Expressions
+Cron expressions provide more flexibility and precision. The syntax is:
+
+cron(minutes hours day-of-month month day-of-week year)
+
+minutes: 0-59
+hours: 0-23
+day-of-month: 1-31
+month: 1-12 or JAN-DEC
+day-of-week: 1-7 or SUN-SAT
+year: 1970-2199 (optional)
+
+Examples:
+
+cron(0 12 * * ? *) - Runs at 12:00 PM (UTC) every day.
+cron(15 10 ? * MON-FRI *) - Runs at 10:15 AM (UTC) every Monday to Friday.
+
+
+
+
+
+
+
+
+
+
+
+

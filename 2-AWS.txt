@@ -1,0 +1,25 @@
+•Introduction to AWS
+AWS is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help business and grow
+-Its compute capacity is six times larger than all other services provided 
+
+ADVANTAGE OF AWS: -
+-Cost Effective (free tier for 1 year)
+
+DOMAINS OF AWS
+1.	COMPUTE SERVICES
+2.	STORE SERVICES
+3.	NETWORKING SERVICES
+4.	MONITORING AND MANAGEMENT 
+5.	SECURITY SERVICES
+6.	DATABASE SERVICES
+7.	DEVOPS AND AWS
+
+1.	COMPUTE SERVICE: - (EC2 – ELASTIC CLOUD COMPUTING)
+1.	AWS EC2, LAMBDA, ELASTIC BEANSTALK
+-	Resizable compute capacity 
+-	It is a clean slate 
+-	Elastic beanstalk – deploy your various application on AWS
+
+
+
+

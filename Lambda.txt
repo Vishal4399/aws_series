@@ -1,0 +1,17 @@
+# Lambda Function in AWS 
+
+AWS Lambda :
+lets you run code without thinking about servers.
+You pay only for the compute time that you consume — there is no charge when your code is not running.
+With Lambda, you can run code for virtually any type of application or backend service, all with zero administration.
+
+AWS Lambda is a serverless computing service that allows you to run code without provisioning or managing servers.
+It automatically scales your applications by running code in response to triggers such as changes in data, shifts in system state, or user actions.
+
+
+Key Limitations of AWS Lambda:
+- Execution Time: The maximum execution time for a Lambda function is 15 minutes. This makes it unsuitable for long-running processes.
+
+- Function Size: The maximum size of a deployed Lambda function package is 250 MB (unzipped), including layers.
+
+- Language Support: AWS Lambda natively supports a limited set of programming languages, though you can bring your own runtime.

@@ -1,0 +1,11 @@
+Throttling in AWS Lambda occurs when the number of concurrent executions exceeds the set limits, either at the account level or the regional level. This is done to ensure fair usage and to prevent any single user from overwhelming the system12.
+
+Here are some key points about throttling in AWS Lambda:
+
+Concurrency Limits: Each AWS account has a default concurrency limit, which is the maximum number of simultaneous executions allowed. If this limit is reached, additional requests are throttled2.
+Burst Limits: AWS Lambda can handle sudden spikes in traffic by allowing a burst of additional executions. However, if the burst limit is exceeded, throttling will occur2.
+Throttling Behavior: When throttling happens, AWS Lambda returns a 429 Too Many Requests error. This means the request is queued and will be retried automatically by the AWS SDK3.
+Managing Throttling:
+Increase Concurrency Limits: You can request an increase in your account’s concurrency limit through AWS Support1.
+Optimize Function Performance: Improving the efficiency of your Lambda functions can help reduce the likelihood of throttling1.
+Use Reserved Concurrency: Setting reserved concurrency for critical functions ensures they have dedicated capacity and are not affected by other functions1.

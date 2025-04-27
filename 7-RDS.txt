@@ -1,0 +1,48 @@
+# RSD - Relational Databases 
+@Amazon RDS database engines
+
+Amazon RDS is available on six database engines, which optimize for memory, performance, or input/output (I/O). Supported database engines include:
+
+Amazon Aurora
+PostgreSQL
+MySQL
+MariaDB
+Oracle Database
+Microsoft SQL Server
+
+@ Nonrelational databases
+
+Nonrelational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. 
+one type of structural approach for nonrelational databases is key-value pairs. With key-value pairs, data is organized into items (keys), and items have attributes (values). You can think of attributes as being different features of your data.
+
+@ Amazon DynamoDB
+Amazon DynamoDB(opens in a new tab) is a key-value database service. It delivers single-digit millisecond performance at any scale.
+
+@ Amazon Redshift
+
+Amazon Redshift is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
+
+
+@ AWS Database Migration Service (AWS DMS)
+
+AWS Database Migration Service (AWS DMS) enables you to migrate relational databases, nonrelational databases, and other types of data stores.
+
+With AWS DMS, you move data between a source database and a target database. The source and target databases(opens in a new tab) can be of the same type or different types. During the migration, your source database remains operational, reducing downtime for any applications that rely on the database. 
+
+ @ Additional database services : 
+- Amazon DocumentDB  is a document database service that supports MongoDB workloads. (MongoDB is a document database program.)
+
+- Amazon Neptune is a graph database service. You can use Amazon Neptune to build and run applications that work with highly connected datasets, such as 
+  recommendation engines, fraud detection, and knowledge graphs.
+
+- Amazon Quantum Ledger Database (Amazon QLDB) is a ledger database service. You can use Amazon QLDB to review a complete history of all the changes that 
+  have been made to your application data.
+
+- Amazon Managed Blockchain is a service that you can use to create and manage blockchain networks with open-source frameworks. Blockchain is a 
+  distributed ledger system that lets multiple parties run transactions and share data without a central authority.
+
+- Amazon ElastiCache : Amazon ElastiCache is a service that adds caching layers on top of your databases to help improve the read times of common requests. 
+  It supports two types of data stores: Redis and Memcached.
+
+- Amazon DynamoDB Accelerator (DAX)(opens in a new tab) is an in-memory cache for DynamoDB. It helps improve response times from single-digit milliseconds to microseconds.
+
